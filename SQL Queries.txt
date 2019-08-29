@@ -1,0 +1,23 @@
+Steps to copy and paste queries into SQL Plus
+
+1. Open SQL* plus and enter username and password.
+2. Press ALT + Spacebar or right click on title bar.
+3. Goto edit > paste.
+4. Paste the below sample queries to create your own database.
+5. Test the project with these sample login details.
+
+
+
+create table student (id number(10) not null, fname varchar2(50) not null, lname varchar2(50) not null, gender varchar2(6), dob date not null, mobile number(10), email varhchar2(50), password varchar2(50), constraint student_pk primary key (id));
+
+insert into student values (1001, 'Surya', 'Saini', 'Male', date '1996-11-12', 7291885612, 'surya.saini@wipro.com', 'Hello1');
+
+select * from student;
+
+
+
+create table professor (id number(10) not null, dept varchar2(50) not null, fname varchar2(50) not null, lname varchar2(50) not null, gender varchar2(6), dob date not null, qualification varchar2(10), mobile number(10), email varhchar2(50), password varchar2(50), constraint professor_pk primary key (id));
+
+insert into professor values (2001, 'Narendra', 'Modi', 'Male', date '1950-09-17', 9999999999, 'narendra.modi@pmo.in', 'Modi123');
+
+select * from professor;
