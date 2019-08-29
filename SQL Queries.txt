@@ -6,7 +6,7 @@ Steps to copy and paste queries into SQL Plus
 4. Paste the below sample queries to create your own database.
 5. Test the project with these sample login details.
 
-
+****  STUDENT TABLE ****
 
 create table student 
 (id number(10) not null, 
@@ -25,6 +25,7 @@ values (1001, 'Surya', 'Saini', 'Male', date '1996-11-12', 7291885612, 'surya.sa
 select * from student;
 
 
+****  PROFESSOR TABLE ****
 
 create table professor 
 (id number(10) not null, 
