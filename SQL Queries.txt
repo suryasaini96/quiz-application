@@ -41,6 +41,20 @@ password varchar2(50),
 constraint professor_pk primary key (id));
 
 insert into professor 
-values (2001, 'Narendra', 'Modi', 'Male', date '1950-09-17', 9999999999, 'narendra.modi@pmo.in', 'Modi123');
+values (2001, 'cse', 'Narendra', 'Modi', 'Male', date '1950-09-17', 'phd', 9999999999, 'narendra.modi@pmo.in', 'Modi123');
 
 select * from professor;
+
+
+
+****  JAVA TABLE ****
+
+create table java
+(id number(3) not null,
+question varchar2(2000),
+op1 varchar2(1000),
+op2 varchar2(1000),
+op3 varchar2(1000),
+op4 varchar2(1000),
+ans varchar2(1000),
+constraint java_pk primary key(id));
