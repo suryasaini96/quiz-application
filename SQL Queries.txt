@@ -46,6 +46,12 @@ values (2001, 'cse', 'Narendra', 'Modi', 'Male', date '1950-09-17', 'phd', 99999
 select * from professor;
 
 
+****  TOPICS TABLE ****
+
+create table topics (topic varchar2(50));
+
+insert into topics values('Java');
+
 
 ****  JAVA TABLE ****
 
@@ -58,3 +64,8 @@ op3 varchar2(1000),
 op4 varchar2(1000),
 ans varchar2(1000),
 constraint java_pk primary key(id));
+
+
+
+
+
