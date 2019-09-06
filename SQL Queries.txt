@@ -84,6 +84,9 @@ create sequence results_lvl1_seq start with 1 increment by 1;
 create sequence results_lvl2_seq start with 1 increment by 1;
 create sequence results_lvl3_seq start with 1 increment by 1;
 
+
+****  RESULTS TABLE TRIGGER ****
+
 create trigger results_ans
 before insert of quesid on results
 for each row
