@@ -66,6 +66,17 @@ ans varchar2(1000),
 constraint java_pk primary key(id));
 
 
+****  RESULTS TABLE ****
+
+create table results
+(id number(5) not null,
+level1 number(3),
+level1 number(3),
+level1 number(3),
+constraint results_pk primary key(id));
+
+
+
 
 
 
