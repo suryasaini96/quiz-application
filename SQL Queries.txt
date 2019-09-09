@@ -87,9 +87,9 @@ create sequence results_lvl3_seq start with 1 increment by 1;
 
 ****  RESULTS TABLE TRIGGER ****
 
-create trigger results_ans
-before insert of quesid on results
-for each row
+CREATE OR REPLACE TRIGGER RESULTS_ANS 
+BEFORE INSERT ON results
+FOR EACH ROW
 begin
 	if :new.quesid >=1 and :new.quesid <=10 then
 		select results_lvl1_seq.nextval into :new.level1 from dual;
@@ -97,7 +97,7 @@ begin
 		select results_lvl2_seq.nextval into :new.level2 from dual;
 	elsif :new.quesid >=21 and :new.quesid <=30 then
 		select results_lvl3_seq.nextval into :new.level3 from dual;
-	endif;		
+	end if;		
 end;
 
 
