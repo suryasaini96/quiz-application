@@ -56,14 +56,14 @@ insert into topics values('Java');
 ****  JAVA TABLE ****
 
 create table java
-(id number(3) not null,
-question varchar2(2000),
+(quesid number(3) not null,
+ques varchar2(2000),
 op1 varchar2(1000),
 op2 varchar2(1000),
 op3 varchar2(1000),
 op4 varchar2(1000),
 ans varchar2(1000),
-constraint java_pk primary key(id));
+constraint java_pk primary key(quesid));
 
 
 ****  RESULTS TABLE ****
