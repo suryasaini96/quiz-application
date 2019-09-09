@@ -93,12 +93,12 @@ for each row
 begin
 	if :new.quesid >=1 and :new.quesid <=10 then
 		select results_lvl1_seq.nextval into :new.level1 from dual;
-  elsif :new.quesid >=11 and :new.quesid <=20 then
+  	elsif :new.quesid >=11 and :new.quesid <=20 then
 		select results_lvl2_seq.nextval into :new.level2 from dual;
 	elsif :new.quesid >=21 and :new.quesid <=30 then
 		select results_lvl3_seq.nextval into :new.level3 from dual;
 	endif;		
-end
+end;
 
 
 
