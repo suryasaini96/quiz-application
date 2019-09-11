@@ -69,13 +69,11 @@ constraint java_pk primary key(quesid));
 ****  RESULTS TABLE ****
 
 create table results
-(topic varchar2(50) not null,
-stuid number(5) not null,
-quesid number(5) not null,
+(stuid number(5) not null,
+topic varchar2(50) not null,
 level1 number(3),
 level2 number(3),
-level3 number(3),
-constraint results_pk primary key(stuid));
+level3 number(3));
 
 
 ****  RESULTS TABLE LEVELS SEQUENCE ****
@@ -99,7 +97,3 @@ begin
 		select results_lvl3_seq.nextval into :new.level3 from dual;
 	end if;		
 end;
-
-
-
-
