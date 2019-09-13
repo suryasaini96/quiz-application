@@ -73,7 +73,8 @@ create table results
 topic varchar2(50) not null,
 level1 number(3),
 level2 number(3),
-level3 number(3));
+level3 number(3),
+time varchar2(50) not null);
 
 
 ****  RESULTS TABLE LEVELS SEQUENCE ****
