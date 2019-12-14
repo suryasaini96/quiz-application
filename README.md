@@ -1,6 +1,6 @@
 # Quiz-Application
 
-Wipro BOP Project in Online Quiz for a college.
+Wipro BOP Project in Online Quiz Application for a college.
 
 An MVC based JSP & Servlet based web application for online assessment for students & professors with an Oracle SQL database.
 
