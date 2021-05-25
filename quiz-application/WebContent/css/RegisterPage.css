@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #fff;
+	background: url();
+	background-size: cover;
+     }
+.registerDiv {
+	background: rgba(44,62,80,0.7);
+	padding: 1%;
+	width: 50%;
+	margin: auto;
+	margin-top: 1%;
+	height: 80%;
+}     
+form
+{
+	width: 100%;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+table
+{
+	width: 100%;
+}
+td
+{
+	 text-align: left;
+	 padding: 1%;
+}
+
+
+input[type=button]:hover
+{
+	color: #fff;
+	background-color: black;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+    
