@@ -2,7 +2,7 @@
 
 Wipro BOP Project in Online Quiz Application for a college.
 
-An MVC based JSP & Servlet based web application for online assessment for students & professors with an Oracle SQL database. We need to setup the database first by creating the tables, sequences and triggers as mentioned in SQL Queries.txt file in order for application to work.
+An MVC based JSP & Servlet based web application for online assessment for students & professors with an Oracle SQL database. **We need to setup the database first by creating the tables, sequences and triggers as mentioned in SQL Queries.txt file in order for application to work.**
 
 The webpage UI had many features such as:-
 
